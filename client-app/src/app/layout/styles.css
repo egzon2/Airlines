@@ -1,0 +1,26 @@
+body {
+    background-color: #b6dfdb !important;
+}
+
+.ui.inverted.top.fixed.menu {
+    background-image: linear-gradient( #333333) !important;
+}
+
+.container {
+    position: relative;
+    font-family: Arial;
+}
+
+.container .left {
+    position: absolute;
+    top: 50%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}

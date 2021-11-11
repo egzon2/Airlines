@@ -1,0 +1,14 @@
+using Domain;
+using FluentValidation;
+
+namespace Application.Udhetaret
+{
+    public class UdhetariValidator : AbstractValidator<Udhetari>
+    {
+        public UdhetariValidator()
+        {
+            RuleFor(x => x.Emri).NotEmpty();
+            RuleFor(x => x.Mbiemri).NotEmpty();
+        }
+    }
+}
